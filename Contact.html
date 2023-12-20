@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>University Website Design</title>
+  <link rel="stylesheet" href="./CSS/Style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+
+<section class="sub-header">
+    <nav> 
+      <a href="index.html"><img src="./eduford_img/Picsart_23-06-28_04-36-09-786.png"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="Index.html">home</a></li>
+          <li><a href="About.html">about</a></li>
+          <li><a href="Course.html">course</a></li>
+          <li><a href="Blog.html">blog</a></li>
+          <li><a href="Contact.html">contact</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <h1>Contact Us</h1>
+
+
+</section> 
+
+<!-- ---------Contact us------ -->
+
+<section class="location">
+
+</section>
+
+<!-- ------Footer----- -->
+
+<section class="footer">
+  <h4>About US</h4>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Rem voluptatum explicabo perspiciatis aspernatur quam nobis omnis delectus velit vero, at esse <br> voluptate iste consequuntur totam maiores accusamus nihil minus quisquam.</p>
+
+  <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+    <i class="fa fa-youtube"></i>
+  </div>
+   <p>Made With <i class="fa fa-heart-o"></i> by Eliyas Fenta</p>
+</section>
+
+
+<!-- ---------JavaScript for Toggle Menu-------- -->
+<script>
+
+   var navLinks = document.getElementById("navLinks");
+   function showMenu(){
+    navLinks.style.right = "0";
+   }
+   function hideMenu(){
+    navLinks.style.right = "-200px";
+   }
+
+</script>
+</body>
+</html>
